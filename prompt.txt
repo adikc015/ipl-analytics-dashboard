@@ -1,0 +1,9 @@
+You are given a CSV file containing IPL player data, which includes both batting and bowling statistics. Your task is to evaluate each player’s overall performance and classify them into appropriate performance categories.
+
+Assess each player’s performance using the available metrics. For batting, consider runs scored, batting average, strike rate, and the number of 50s and 100s. For bowling, consider wickets taken, economy rate, and bowling average.
+Based on the overall performance, assign each player to one of the following categories: A for high performers, B for average performers, and C for low performers.
+Ensure that the distribution of players across the three categories is as balanced as possible. The number of players in each category should be nearly equal.
+While evaluating, consider both batting and bowling contributions so that all-rounders are treated fairly. Handle missing or unavailable values gracefully by ignoring those metrics during evaluation. Make sure that every player is assigned a category without any omissions.
+The final output should return the complete dataset without modifying or removing any existing columns. Add a new column named player_category that contains the assigned category for each player.
+
+give the final output in csv format
