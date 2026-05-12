@@ -2,6 +2,8 @@
 
 This project scrapes IPL player information from Cricbuzz, stores the fetched data in a CSV file, downloads player images, and displays the results in an Tableau workbook, grouped by IPL teams.
 
+![IPL Dashboard Preview](image.png)
+
 ## Project Files
 
 - `main.py` - Scrapes IPL team/player pages, extracts profile details and IPL batting/bowling stats, downloads player images, and writes the final dataset.
